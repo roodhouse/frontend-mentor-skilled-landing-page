@@ -1,7 +1,6 @@
 import './App.css';
 import Header from './components/Header';
 import Body from './components/Body';
-import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,11 +9,11 @@ function App() {
         <div id='headerWrapper' className='mt-4 mx-4 mb-[38px] md:mt-6 md:mx-10'>
           <Header />
         </div>
-        <div id='bodyWrapper'>
+        <div id='bodyWrapper' className='mb-20'>
           <Body />
         </div>
-        <div id='footerWrapper' className='bg-naval px-4'>
-          <Footer />
+        <div id='footerWrapper'>
+          {/* <Footer /> */}
         </div>
       </div>
     </div>

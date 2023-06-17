@@ -87,7 +87,7 @@ function Bottom() {
                 </div>
             </div>
 
-            <div id="businessCard" className='flex flex-col items-start text-left shadow-[0px_25px_50px_rgba(6,22,141,0.0442381)]'>
+            <div id="businessCard" className='flex flex-col items-start text-left mb-4 shadow-[0px_25px_50px_rgba(6,22,141,0.0442381)]'>
                 <div id="businessImageContainer" className='max-h-[24px] bg-offWhite w-full px-7 z-10'>
                     <div id='businessImage'>
                         <img src={Business} alt="Business card" />

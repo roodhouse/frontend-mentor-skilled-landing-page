@@ -8,7 +8,7 @@ function Body() {
         <div id='topWrapper' className='mb-[66px] px-4'>
             <Top />
         </div>
-        <div id='bottomWrapper' className='bg-gradient-to-b from-white from-0% to-offWhite to-100% px-4 pb-20'>
+        <div id='bottomWrapper' className='bg-gradient-to-b from-white from-0% to-offWhite to-100% px-4'>
             <Bottom />
         </div>
     </div>
