@@ -1,9 +1,21 @@
 import './App.css';
+import Header from './components/Header';
+import Body from './components/Body';
 
 function App() {
   return (
     <div className="App">
-      <h1>hello world</h1>
+      <div id='wrapperDiv'>
+        <div id='headerWrapper' className='mt-4 mx-4 mb-[38px]'>
+          <Header />
+        </div>
+        <div id='bodyWrapper' className='mb-20'>
+          <Body />
+        </div>
+        <div id='footerWrapper'>
+          {/* <Footer /> */}
+        </div>
+      </div>
     </div>
   );
 }
