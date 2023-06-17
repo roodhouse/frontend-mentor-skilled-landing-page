@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div id='wrapperDiv'>
-        <div id='headerWrapper' className='mt-4 mx-4 mb-[38px] md:mt-6 md:mx-10'>
+        <div id='headerWrapper' className='mt-4 mx-4 mb-[38px]'>
           <Header />
         </div>
         <div id='bodyWrapper' className='mb-20'>
