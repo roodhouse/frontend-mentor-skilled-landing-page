@@ -5,7 +5,7 @@ import Bottom from './body/Bottom'
 function Body() {
   return (
     <div id='bodyContentWrapper'>
-        <div id='topWrapper' className='mb-[66px] px-4'>
+        <div id='topWrapper' className='mb-[66px] px-4 md:px-10'>
             <Top />
         </div>
         <div id='bottomWrapper' className='bg-gradient-to-b from-white from-0% to-offWhite to-100% px-4 pb-20'>
