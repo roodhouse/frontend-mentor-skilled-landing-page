@@ -13,7 +13,7 @@ function App() {
         <div id='bodyWrapper'>
           <Body />
         </div>
-        <div id='footerWrapper' className='px-4 bg-naval md:px-10'>
+        <div id='footerWrapper' className='px-4 bg-naval md:px-10 xl:px-[165px]'>
           <Footer />
         </div>
       </div>
