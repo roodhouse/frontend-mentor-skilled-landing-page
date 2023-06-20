@@ -33,7 +33,7 @@ function Bottom() {
                     </div>
                 </div>
                 <div id="designCard" className='flex flex-col items-start text-left mb-4 shadow-[0px_25px_50px_rgba(6,22,141,0.0442381)] md:w-[340px]'>
-                    <div id="designImageContainer" className='max-h-[24px] bg-[#F2F3FB] w-full px-7 z-10'>
+                    <div id="designImageContainer" className='max-h-[24px] bg-[#F2F3FB] w-full px-7 z-10 md:bg-transparent'>
                         <div id='designImage'>
                             <img src={Design} alt="Design card" />
                         </div>
@@ -52,7 +52,7 @@ function Bottom() {
                 </div>
 
                 <div id="photoCard" className='flex flex-col items-start text-left mb-4 shadow-[0px_25px_50px_rgba(6,22,141,0.0442381)] md:w-[340px]'>
-                    <div id="photoImageContainer" className='max-h-[24px] bg-[#F1F4FD] w-full px-7 z-10'>
+                    <div id="photoImageContainer" className='max-h-[24px] bg-[#F1F4FD] w-full px-7 z-10 md:bg-transparent'>
                         <div id='photoImage'>
                             <img src={Photo} alt="Photography card" />
                         </div>
@@ -70,7 +70,7 @@ function Bottom() {
                     </div>
                 </div>
 
-                <div id="cryptoCard" className='flex flex-col items-start text-left mb-4 shadow-[0px_25px_50px_rgba(6,22,141,0.0442381)] md:w-[340px]'>
+                <div id="cryptoCard" className='flex flex-col items-start text-left mb-4 shadow-[0px_25px_50px_rgba(6,22,141,0.0442381)] md:w-[340px] md:mb-0'>
                     <div id="cryptoImageContainer" className='max-h-[24px] bg-offWhite w-full px-7 z-10'>
                         <div id='cryptoImage'>
                             <img src={Crypto} alt="Crypto card" />
