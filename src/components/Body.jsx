@@ -5,10 +5,10 @@ import Bottom from './body/Bottom'
 function Body() {
   return (
     <div id='bodyContentWrapper'>
-        <div id='topWrapper' className='mb-[66px] px-4 md:px-10 md:mb-[140px]'>
+        <div id='topWrapper' className='mb-[66px] px-4 md:px-10 md:mb-[140px] xl:px-[165px] xl:mb-[180px]'>
             <Top />
         </div>
-        <div id='bottomWrapper' className='bg-gradient-to-b from-white from-0% to-offWhite to-100% px-4 pb-20 md:px-10 md:pb-[86px]'>
+        <div id='bottomWrapper' className='bg-gradient-to-b from-white from-0% to-offWhite to-100% px-4 pb-20 md:px-10 md:pb-[86px] xl:px-[165px] xl:pb-[140px]'>
             <Bottom />
         </div>
     </div>
