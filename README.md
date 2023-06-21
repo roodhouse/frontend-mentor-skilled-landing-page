@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 #### mobile
-![](../frontend-mentor-skilled-landing-page/src/assets/mb.png)
+![](/src/assets/mb.png)
 
 #### tablet
 ![](../frontend-mentor-skilled-landing-page/src/assets/tab.png)
