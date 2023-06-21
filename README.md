@@ -28,10 +28,10 @@ Users should be able to:
 ![](/src/assets/mb.png)
 
 #### tablet
-![](../frontend-mentor-skilled-landing-page/src/assets/tab.png)
+![](/src/assets/tab.png)
 
 #### desktop
-![](../frontend-mentor-skilled-landing-page/src/assets/dt.png)
+![](/src/assets/dt.png)
 
 ### Links
 
@@ -63,11 +63,11 @@ I learned that delcaring the width of the parent element and then using overflow
 
 #### overflow hidden
 
-![](../frontend-mentor-skilled-landing-page/src/assets/overflowvHidden.png)
+![](/src/assets/overflowvHidden.png)
 
 #### overflow visible
 
-![](../frontend-mentor-skilled-landing-page/src/assets/overflowVisible.png)
+![](/src/assets/overflowVisible.png)
 
 ## Author
 
