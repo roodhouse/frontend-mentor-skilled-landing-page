@@ -1,3 +1,0 @@
-1. setup tailwind
-2. set up fonts
-3. set up colors
