@@ -5,6 +5,7 @@ import TabletImage from '../../assets/image-hero-tablet@2x.webp'
 import DesktopImage from '../../assets/image-hero-desktop@2x.webp'
 
 function Top() {
+
   return (
     <div id='topContentWrapper' className='flex flex-col text-left'>
         <div id="textWrapper" className='md:max-w-[398px] xl:max-w-[457px]'>
@@ -18,7 +19,7 @@ function Top() {
                 <button>Get Started</button>
             </div>
         </div>
-        <div id='topImage' className='md:absolute md:w-[368px] md:h-[640px] md:overflow-hidden md:left-[400px] md:top-[-65px] xl:w-[653px] xl:h-fit xl:top-[-180px] xl:left-[787px]'>
+        <div id='topImage' className='md:absolute md:w-[368px] md:h-[640px] md:overflow-hidden md:left-[400px] md:top-[-65px] lg:w-[400px] lg:left-[624px] xl:w-[653px] xl:h-fit xl:top-[-180px] xl:left-[787px] 2xl:w-[616px] 2xl:left-[902px]'>
             <img src={TopImage} alt="Cofee drinker" className='md:hidden' />
             <img src={TabletImage} alt="Cofee drinker" className='hidden md:block md:max-w-[640px] md:w-[640px] xl:hidden' />
             <img src={DesktopImage} alt="Cofee drinker" className='hidden xl:block xl:max-w-[991px] xl:w-[991px] xl:h-full' />
